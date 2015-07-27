@@ -62,8 +62,7 @@ describe('Visual monitor testing', function() {
       .webdrivercss(testName + '.homepage', {
         name: '1',
         exclude: [],
-        remove: [],
-        screenWidth: selectedCaps == 'chrome' ? [320, 640, 960, 1200] : undefined,
+        remove: []
       }, shoovWebdrivercss.processResults)
       .call(done);
   });
